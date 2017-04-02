@@ -1,0 +1,4 @@
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DTO\bin\Debug\BookMyTicket.Services.DTO.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DTO\bin\Debug\BookMyTicket.Services.DTO.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DTO\obj\Debug\BookMyTicket.Services.DTO.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DTO\obj\Debug\BookMyTicket.Services.DTO.pdb

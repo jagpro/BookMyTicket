@@ -1,0 +1,13 @@
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.BL.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.BL.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.DAL.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.DTO.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.Repo.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\EntityFramework.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.DAL.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.DTO.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\BookMyTicket.Services.Repo.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\bin\Debug\EntityFramework.xml
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\obj\Debug\BookMyTicket.Services.BL.csprojResolveAssemblyReference.cache
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\obj\Debug\BookMyTicket.Services.BL.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.BL\obj\Debug\BookMyTicket.Services.BL.pdb

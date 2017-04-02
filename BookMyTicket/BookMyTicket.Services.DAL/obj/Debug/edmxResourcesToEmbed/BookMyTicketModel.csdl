@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookMyTicketModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BookMyTicketEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Theatres" EntityType="BookMyTicketModel.Theatre" />
+  </EntityContainer>
+  <EntityType Name="Theatre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MetaData" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CreatedBy" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="ModifiedBy" Nullable="false" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
+    <Property Type="Boolean" Name="Active" Nullable="false" />
+    <Property Type="Boolean" Name="Deleted" Nullable="false" />
+  </EntityType>
+</Schema>

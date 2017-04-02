@@ -1,0 +1,7 @@
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\bin\Debug\BookMyTicket.Services.API.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\bin\Debug\BookMyTicket.Services.API.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\obj\Debug\BookMyTicket.Services.API.csprojResolveAssemblyReference.cache
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\obj\Debug\BookMyTicket.Services.API.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\obj\Debug\BookMyTicket.Services.API.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\bin\Debug\BookMyTicket.Services.DTO.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.API\bin\Debug\BookMyTicket.Services.DTO.pdb

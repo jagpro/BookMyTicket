@@ -1,0 +1,7 @@
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.Services.DAL.dll.config
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.Services.DAL.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.Services.DAL.pdb
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\EntityFramework.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\EntityFramework.xml
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.dll
+D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.pdb
