@@ -17,5 +17,40 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Movies">
+      <EntityTypeMapping TypeName="BookMyTicketModel.Movie">
+        <MappingFragment StoreEntitySet="Movie">
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="MetaData" ColumnName="MetaData" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shows">
+      <EntityTypeMapping TypeName="BookMyTicketModel.Show">
+        <MappingFragment StoreEntitySet="Show">
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="MetaData" ColumnName="MetaData" />
+          <ScalarProperty Name="AvailableSeats" ColumnName="AvailableSeats" />
+          <ScalarProperty Name="ShowTime" ColumnName="ShowTime" />
+          <ScalarProperty Name="ScreenDateTo" ColumnName="ScreenDateTo" />
+          <ScalarProperty Name="ScreenDateFrom" ColumnName="ScreenDateFrom" />
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="TheatreID" ColumnName="TheatreID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

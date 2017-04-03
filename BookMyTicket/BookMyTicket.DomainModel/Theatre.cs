@@ -14,6 +14,11 @@ namespace BookMyTicket.DomainModel
     
     public partial class Theatre
     {
+        public Theatre()
+        {
+            this.Shows = new HashSet<Show>();
+        }
+    
         public int ID { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
@@ -24,5 +29,7 @@ namespace BookMyTicket.DomainModel
         public System.DateTime ModifiedDate { get; set; }
         public bool Active { get; set; }
         public bool Deleted { get; set; }
+    
+        public virtual ICollection<Show> Shows { get; set; }
     }
 }

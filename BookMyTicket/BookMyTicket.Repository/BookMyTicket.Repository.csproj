@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShowRepository.cs" />
+    <Compile Include="MovieRepository.cs" />
     <Compile Include="GenericDataRepository.cs" />
     <Compile Include="IGenericDataRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,13 +61,13 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BookMyTicket.DomainModel\BookMyTicket.DomainModel.csproj">
-      <Project>{2bc95a1f-a07f-4583-a07e-b7225f989914}</Project>
-      <Name>BookMyTicket.DomainModel</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BookMyTicket.DataAccess\BookMyTicket.DataAccess.csproj">
       <Project>{d2da7677-1719-4395-adfa-78361b51945c}</Project>
       <Name>BookMyTicket.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookMyTicket.DomainModel\BookMyTicket.DomainModel.csproj">
+      <Project>{2bc95a1f-a07f-4583-a07e-b7225f989914}</Project>
+      <Name>BookMyTicket.DomainModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,6 +2,16 @@
 <Schema Namespace="BookMyTicketModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="BookMyTicketEntities" p1:LazyLoadingEnabled="true">
     <EntitySet Name="Theatres" EntityType="BookMyTicketModel.Theatre" />
+    <EntitySet Name="Movies" EntityType="BookMyTicketModel.Movie" />
+    <EntitySet Name="Shows" EntityType="BookMyTicketModel.Show" />
+    <AssociationSet Name="FK_Show_MovieID" Association="BookMyTicketModel.FK_Show_MovieID">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="Show" EntitySet="Shows" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Show_TheatreID" Association="BookMyTicketModel.FK_Show_TheatreID">
+      <End Role="Theatre" EntitySet="Theatres" />
+      <End Role="Show" EntitySet="Shows" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="Theatre">
     <Key>
@@ -17,5 +27,66 @@
     <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
     <Property Type="Boolean" Name="Active" Nullable="false" />
     <Property Type="Boolean" Name="Deleted" Nullable="false" />
+    <NavigationProperty Name="Shows" Relationship="BookMyTicketModel.FK_Show_TheatreID" FromRole="Theatre" ToRole="Show" />
   </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MetaData" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CreatedBy" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="ModifiedBy" Nullable="false" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
+    <Property Type="Boolean" Name="Active" Nullable="false" />
+    <Property Type="Boolean" Name="Deleted" Nullable="false" />
+    <NavigationProperty Name="Shows" Relationship="BookMyTicketModel.FK_Show_MovieID" FromRole="Movie" ToRole="Show" />
+  </EntityType>
+  <EntityType Name="Show">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="TheatreID" Nullable="false" />
+    <Property Type="Int32" Name="MovieID" Nullable="false" />
+    <Property Type="DateTime" Name="ScreenDateFrom" Precision="3" />
+    <Property Type="DateTime" Name="ScreenDateTo" Precision="3" />
+    <Property Type="String" Name="ShowTime" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="AvailableSeats" Nullable="false" />
+    <Property Type="String" Name="MetaData" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CreatedBy" Nullable="false" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="ModifiedBy" Nullable="false" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
+    <Property Type="Boolean" Name="Active" Nullable="false" />
+    <Property Type="Boolean" Name="Deleted" Nullable="false" />
+    <NavigationProperty Name="Movie" Relationship="BookMyTicketModel.FK_Show_MovieID" FromRole="Show" ToRole="Movie" />
+    <NavigationProperty Name="Theatre" Relationship="BookMyTicketModel.FK_Show_TheatreID" FromRole="Show" ToRole="Theatre" />
+  </EntityType>
+  <Association Name="FK_Show_MovieID">
+    <End Type="BookMyTicketModel.Movie" Role="Movie" Multiplicity="1" />
+    <End Type="BookMyTicketModel.Show" Role="Show" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Show">
+        <PropertyRef Name="MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Show_TheatreID">
+    <End Type="BookMyTicketModel.Theatre" Role="Theatre" Multiplicity="1" />
+    <End Type="BookMyTicketModel.Show" Role="Show" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Theatre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Show">
+        <PropertyRef Name="TheatreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

@@ -16,8 +16,8 @@ D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\BookMyT
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\BookMyTicket.DataAccess.dll
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\BookMyTicket.DomainModel.dll
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\EntityFramework.dll
-D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\BookMyTicket.DomainModel.pdb
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\BookMyTicket.DataAccess.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\BookMyTicket.DomainModel.pdb
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\bin\Debug\EntityFramework.xml
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\obj\Debug\BookMyTicket.Repository.csprojResolveAssemblyReference.cache
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Repository\obj\Debug\BookMyTicket.Repository.dll

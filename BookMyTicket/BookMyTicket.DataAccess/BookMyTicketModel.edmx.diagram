@@ -6,6 +6,10 @@
     <edmx:Diagrams>
       <Diagram DiagramId="3757038e0b73429cae2ee8801839f903" Name="Diagram1" ZoomLevel="93">
         <EntityTypeShape EntityType="BookMyTicketModel.Theatre" Width="1.5" PointX="2.6926989567897746" PointY="29.393949134924426" />
+        <EntityTypeShape EntityType="BookMyTicketModel.Movie" Width="1.5" PointX="8.7345819439434358" PointY="9.8342544780272316" />
+        <EntityTypeShape EntityType="BookMyTicketModel.Show" Width="1.5" PointX="11.1898048870218" PointY="27.82383477493368" />
+        <AssociationConnector Association="BookMyTicketModel.FK_Show_MovieID" />
+        <AssociationConnector Association="BookMyTicketModel.FK_Show_TheatreID" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

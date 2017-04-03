@@ -19,8 +19,6 @@ namespace BookMyTicket.DataAccess
         public BookMyTicketEntities()
             : base("name=BookMyTicketEntities")
         {
-            Configuration.LazyLoadingEnabled = false;
-            Configuration.ProxyCreationEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -29,5 +27,7 @@ namespace BookMyTicket.DataAccess
         }
     
         public DbSet<Theatre> Theatres { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Show> Shows { get; set; }
     }
 }

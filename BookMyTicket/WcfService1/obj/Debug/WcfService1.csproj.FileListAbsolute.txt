@@ -1,0 +1,4 @@
+D:\Jagadhees\BookMyTicket\BookMyTicket\WcfService1\bin\WcfService1.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\WcfService1\bin\WcfService1.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\WcfService1\obj\Debug\WcfService1.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\WcfService1\obj\Debug\WcfService1.pdb
