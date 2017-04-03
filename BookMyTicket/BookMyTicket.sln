@@ -5,15 +5,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.API",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.DTO", "BookMyTicket.Services.DTO\BookMyTicket.Services.DTO.csproj", "{4095521D-3276-4420-B022-63E330F28B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.Repo", "BookMyTicket.Services.Repo\BookMyTicket.Services.Repo.csproj", "{9067EADB-AFAE-4DE2-AA9A-A579BF58C122}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Repository", "BookMyTicket.Repository\BookMyTicket.Repository.csproj", "{9067EADB-AFAE-4DE2-AA9A-A579BF58C122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.DAL", "BookMyTicket.Services.DAL\BookMyTicket.Services.DAL.csproj", "{D2DA7677-1719-4395-ADFA-78361B51945C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.DataAccess", "BookMyTicket.DataAccess\BookMyTicket.DataAccess.csproj", "{D2DA7677-1719-4395-ADFA-78361B51945C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.BL", "BookMyTicket.Services.BL\BookMyTicket.Services.BL.csproj", "{3255B6EF-C045-4D19-B9B5-CE0B6EE02A94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.BusinessLogic", "BookMyTicket.BusinessLogic\BookMyTicket.BusinessLogic.csproj", "{3255B6EF-C045-4D19-B9B5-CE0B6EE02A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.Repo.Test", "BookMyTicket.Services.Repo.Test\BookMyTicket.Services.Repo.Test.csproj", "{66CFFAA2-EA96-4795-8F3B-95E74D139D15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Repository.Test", "BookMyTicket.Repository.Test\BookMyTicket.Repository.Test.csproj", "{66CFFAA2-EA96-4795-8F3B-95E74D139D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.Services.BL.Test", "BookMyTicket.Services.BL.Test\BookMyTicket.Services.BL.Test.csproj", "{8F874558-2788-4728-8AD4-DD767DE599FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.BusinessLogic.Test", "BookMyTicket.BusinessLogic.Test\BookMyTicket.BusinessLogic.Test.csproj", "{8F874558-2788-4728-8AD4-DD767DE599FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyTicket.DomainModel", "BookMyTicket.DomainModel\BookMyTicket.DomainModel.csproj", "{2BC95A1F-A07F-4583-A07E-B7225F989914}"
 EndProject
