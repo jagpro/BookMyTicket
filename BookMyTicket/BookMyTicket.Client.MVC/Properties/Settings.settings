@@ -5,5 +5,8 @@
     <Setting Name="BookMyTicket_Client_MVC_TheatreServiceWebReference_TheatreService" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">http://localhost:1743/TheatreService.svc</Value>
     </Setting>
+    <Setting Name="BookMyTicket_Client_MVC_ShowServiceReference_ShowService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1743/ShowService.svc</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

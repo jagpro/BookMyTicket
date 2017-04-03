@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BookMyTicket.Services.WCF.ShowService" CodeBehind="BookMyTicket.Services.WCF.ShowService.cs" %>

@@ -177,6 +177,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Web References\ShowServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
     <Compile Include="Web References\TheatreServiceWebReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -259,6 +264,14 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Web References\ShowServiceReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Web References\ShowServiceReference\ShowDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\ShowServiceReference\ShowService.disco" />
     <Content Include="Web References\TheatreServiceWebReference\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -308,6 +321,17 @@
     <Content Include="Views\Web.config" />
     <Content Include="Web References\TheatreServiceWebReference\TheatreService.wsdl" />
     <Content Include="Views\BookingSystem\Index.cshtml" />
+    <Content Include="Web References\ShowServiceReference\ShowService.wsdl" />
+    <Content Include="Views\BookingSystem\Details.cshtml" />
+    <None Include="Web References\ShowServiceReference\ShowService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShowServiceReference\ShowService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShowServiceReference\ShowService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web References\TheatreServiceWebReference\TheatreService.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -337,6 +361,17 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:1743/ShowService.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ShowServiceReference\</RelPath>
+      <UpdateFromURL>http://localhost:1743/ShowService.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BookMyTicket_Client_MVC_ShowServiceReference_ShowService</CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="http://localhost:1743/TheatreService.svc">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\TheatreServiceWebReference\</RelPath>

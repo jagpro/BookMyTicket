@@ -32,5 +32,15 @@ namespace BookMyTicket.Client.MVC.Properties {
                 return ((string)(this["BookMyTicket_Client_MVC_TheatreServiceWebReference_TheatreService"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:1743/ShowService.svc")]
+        public string BookMyTicket_Client_MVC_ShowServiceReference_ShowService {
+            get {
+                return ((string)(this["BookMyTicket_Client_MVC_ShowServiceReference_ShowService"]));
+            }
+        }
     }
 }

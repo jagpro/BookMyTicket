@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BookMyTicket.Client.MVC.ShowServiceReference.ShowDTO>
+
+@{
+    ViewBag.Title = "Shows";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Shows - Seat Availability</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Movie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Theatre)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.ScreenDateFrom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ScreenDateTo)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.ShowTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailableSeats)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetaData)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Movie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Theatre)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.ScreenDateFrom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ScreenDateTo)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.ShowTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AvailableSeats)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MetaData)
+        </td>
+        <td>
+            @Html.ActionLink("Book My Ticket", "BookMyTicket", new { id=item.ID }) |
+            @Html.ActionLink("Get Movie Info", "GetMovieInfo", new { id=item.MovieID })
+        </td>
+    </tr>
+}
+
+</table>

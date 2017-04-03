@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BookMyTicket.Services.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BookMyTicket.Services.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfShowDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ShowDTO" nillable="true" type="tns:ShowDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfShowDTO" nillable="true" type="tns:ArrayOfShowDTO" />
+  <xs:complexType name="ShowDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AvailableSeats" type="xs:int" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="MetaData" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Movie" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MovieID" type="xs:int" />
+      <xs:element minOccurs="0" name="ScreenDateFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScreenDateTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShowTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Theatre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TheatreID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ShowDTO" nillable="true" type="tns:ShowDTO" />
+</xs:schema>

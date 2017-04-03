@@ -5,11 +5,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Theatres</h2>
 
-<p>
-    BookMyTicket System
-</p>
 <table>
     <tr>
         <th>
@@ -37,9 +34,7 @@
                 @Html.DisplayFor(modelItem => item.MetaData)
             </td>
             <td>
-
-                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-
+                @Html.ActionLink("Get Seats Availability", "Details", new { id = item.ID })
             </td>
         </tr>
     }

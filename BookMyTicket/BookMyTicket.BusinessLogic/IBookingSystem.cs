@@ -10,6 +10,9 @@ namespace BookMyTicket.BusinessLogic
     public interface IBookingSystem
     {
         IList<TheatreDTO> GetAllTheatres();
-        IList<TheatreDTO> GetAllTheatresByLocation();        
+        IList<TheatreDTO> GetAllTheatresByLocation();
+
+        IList<ShowDTO> GetAllShows();
+        IList<ShowDTO> GetShowsByTheatre(int id);
     }
 }

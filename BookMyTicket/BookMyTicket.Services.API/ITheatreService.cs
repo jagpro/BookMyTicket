@@ -14,28 +14,13 @@ namespace BookMyTicket.Services.API
         [OperationContract]
         TheatreDTO[] GetTheatres();
 
-        //[OperationContract]
-        //string GetTheatresByLocation();
+        [OperationContract]
+        TheatreDTO[] GetTheatresByName(string name);
 
-        //[OperationContract]
-        //TheatreDTO GetTheatreById(int id);
+        [OperationContract]
+        TheatreDTO[] GetTheatresByLocation(string location);
 
-        //[OperationContract]
-        //string GetMovies();
-
-        //[OperationContract]
-        //string GetMoviesByTheatre();
-
-        //[OperationContract]
-        //string GetShowsForAMovie();
-
-        //[OperationContract]
-        //string GetAvailableSeatsForAShow();
-
-        //[OperationContract]
-        //string BookTickets();
-
-        ////[OperationContract]
-        ////CompositeType GetDataUsingDataContract(CompositeType composite);
+        [OperationContract]
+        TheatreDTO GetTheatreById(int id);
     }
 }

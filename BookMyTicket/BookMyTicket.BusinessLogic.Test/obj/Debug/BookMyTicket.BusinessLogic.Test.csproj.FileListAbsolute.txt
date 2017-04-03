@@ -19,7 +19,6 @@ D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.BL.Test\bin\Debug\B
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.BL.Test\bin\Debug\EntityFramework.xml
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.BL.Test\obj\Debug\BookMyTicket.Services.BL.Test.dll
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.BL.Test\obj\Debug\BookMyTicket.Services.BL.Test.pdb
-D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\obj\Debug\BookMyTicket.BusinessLogic.Test.csprojResolveAssemblyReference.cache
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\BookMyTicket.BusinessLogic.Test.dll.config
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\BookMyTicket.BusinessLogic.Test.dll
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\BookMyTicket.BusinessLogic.Test.pdb
@@ -37,6 +36,7 @@ D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\BookMyTicket.DomainModel.pdb
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\BookMyTicket.DataAccess.pdb
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\EntityFramework.xml
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\obj\Debug\BookMyTicket.BusinessLogic.Test.csprojResolveAssemblyReference.cache
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\obj\Debug\BookMyTicket.BusinessLogic.Test.dll
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\obj\Debug\BookMyTicket.BusinessLogic.Test.pdb
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.BusinessLogic.Test\bin\Debug\AutoMapper.Net4.dll
