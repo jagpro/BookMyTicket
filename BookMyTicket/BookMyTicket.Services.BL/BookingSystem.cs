@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using BookMyTicket.Services.DTO;
 using BookMyTicket.Services.Repo;
+using AutoMapper;
+using BookMyTicket.DomainModel;
 
 namespace BookMyTicket.Services.BL
 {
@@ -15,20 +17,14 @@ namespace BookMyTicket.Services.BL
         public BookingSystem() //TODO: DI;
         {
             _theatreRepository = new TheatreRepository();
+            Mapper.CreateMap<Theatre, TheatreDTO>();
         }
 
         public IList<TheatreDTO> GetAllTheatres()
         {
             var theatres = _theatreRepository.GetAll();
-            var dtos = theatres.Select(x => new TheatreDTO()
-            {
-                ID = x.ID,
-                Location = x.Location,
-                MetaData = x.MetaData,
-                Name = x.Name
-            }).ToArray();
-
-            return dtos;
+            var dtos = theatres.Select(theatre => Mapper.Map<TheatreDTO>(theatre)).ToArray();
+            return dtos;            
         }
 
         public IList<TheatreDTO> GetAllTheatresByLocation()

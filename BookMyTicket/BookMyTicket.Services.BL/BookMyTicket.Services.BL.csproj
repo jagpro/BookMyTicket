@@ -30,6 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.2.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.2.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.AutoMapper">
+      <HintPath>..\packages\Glimpse.AutoMapper.1.0.2\lib\net45\Glimpse.AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Core">
+      <HintPath>..\packages\Glimpse.1.8.6\lib\net45\Glimpse.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,9 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BookMyTicket.Services.DAL\BookMyTicket.Services.DAL.csproj">
-      <Project>{d2da7677-1719-4395-adfa-78361b51945c}</Project>
-      <Name>BookMyTicket.Services.DAL</Name>
+    <ProjectReference Include="..\BookMyTicket.DomainModel\BookMyTicket.DomainModel.csproj">
+      <Project>{2bc95a1f-a07f-4583-a07e-b7225f989914}</Project>
+      <Name>BookMyTicket.DomainModel</Name>
     </ProjectReference>
     <ProjectReference Include="..\BookMyTicket.Services.DTO\BookMyTicket.Services.DTO.csproj">
       <Project>{4095521d-3276-4420-b022-63e330f28b56}</Project>
@@ -59,7 +71,11 @@
       <Name>BookMyTicket.Services.Repo</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\AutoMapper.3.2.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.2.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

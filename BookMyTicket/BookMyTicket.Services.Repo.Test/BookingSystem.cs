@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BookMyTicket.Services.Repo;
-using BookMyTicket.Services.DAL;
+using BookMyTicket.DomainModel;
 
 namespace BookMyTicket.Services.Repo.Test
 {

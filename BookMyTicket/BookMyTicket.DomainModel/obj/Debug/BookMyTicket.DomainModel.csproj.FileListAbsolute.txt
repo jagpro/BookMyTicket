@@ -1,0 +1,4 @@
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.DomainModel\bin\Debug\BookMyTicket.DomainModel.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.DomainModel\bin\Debug\BookMyTicket.DomainModel.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.DomainModel\obj\Debug\BookMyTicket.DomainModel.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.DomainModel\obj\Debug\BookMyTicket.DomainModel.pdb

@@ -54,6 +54,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BookMyTicket.DomainModel\BookMyTicket.DomainModel.csproj">
+      <Project>{2bc95a1f-a07f-4583-a07e-b7225f989914}</Project>
+      <Name>BookMyTicket.DomainModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BookMyTicket.Services.DAL\BookMyTicket.Services.DAL.csproj">
       <Project>{d2da7677-1719-4395-adfa-78361b51945c}</Project>
       <Name>BookMyTicket.Services.DAL</Name>

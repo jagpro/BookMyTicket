@@ -46,26 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BookMyTicketModel.Context.cs">
+    <Compile Include="BookMyTicketModel.Context.cs" />
+    <Compile Include="BookMyTicketModel.Context1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BookMyTicketModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BookMyTicketModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BookMyTicketModel.tt</DependentUpon>
     </Compile>
     <Compile Include="BookMyTicketModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BookMyTicketModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Theatre.cs">
-      <DependentUpon>BookMyTicketModel.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="BookMyTicketModel.edmx">
@@ -77,21 +69,21 @@
     <None Include="App.Config" />
     <None Include="BookMyTicketModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BookMyTicketModel.edmx</DependentUpon>
-      <LastGenOutput>BookMyTicketModel.Context.cs</LastGenOutput>
+      <LastGenOutput>BookMyTicketModel.Context1.cs</LastGenOutput>
     </None>
     <None Include="BookMyTicketModel.edmx.diagram">
       <DependentUpon>BookMyTicketModel.edmx</DependentUpon>
-    </None>
-    <None Include="BookMyTicketModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BookMyTicketModel.edmx</DependentUpon>
-      <LastGenOutput>BookMyTicketModel.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookMyTicket.DomainModel\BookMyTicket.DomainModel.csproj">
+      <Project>{2bc95a1f-a07f-4583-a07e-b7225f989914}</Project>
+      <Name>BookMyTicket.DomainModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

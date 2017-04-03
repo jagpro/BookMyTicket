@@ -5,3 +5,13 @@ D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\EntityFramewor
 D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\EntityFramework.xml
 D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.dll
 D:\Jagadhees\BMT\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.Services.DAL.dll.config
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.Services.DAL.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.Services.DAL.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.DomainModel.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\EntityFramework.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\BookMyTicket.DomainModel.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\bin\Debug\EntityFramework.xml
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.csprojResolveAssemblyReference.cache
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.dll
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DAL\obj\Debug\BookMyTicket.Services.DAL.pdb
