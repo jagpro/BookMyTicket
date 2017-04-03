@@ -44,7 +44,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BookMyTicketModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Movie.cs">
       <DependentUpon>BookMyTicketModel.tt</DependentUpon>
     </Compile>
