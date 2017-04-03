@@ -6,3 +6,4 @@ D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DTO\bin\Debug\BookM
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DTO\bin\Debug\BookMyTicket.Services.DTO.pdb
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DTO\obj\Debug\BookMyTicket.Services.DTO.dll
 D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DTO\obj\Debug\BookMyTicket.Services.DTO.pdb
+D:\Jagadhees\BookMyTicket\BookMyTicket\BookMyTicket.Services.DTO\obj\Debug\BookMyTicket.Services.DTO.csprojResolveAssemblyReference.cache
